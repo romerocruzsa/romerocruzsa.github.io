@@ -17,7 +17,7 @@ I am an undergraudate senior in Computer Science and Engineering at the Universi
 
 ## News
 
-- **[Aug. 2025]** Abstract accepted for SIAM CSE 2025 titled *Evaluating Neural Network Quantization for Conjunctival Pallor Anemia Detection*!
+- **[Jan. 2025]** Abstract accepted for SIAM CSE 2025 titled *Evaluating Neural Network Quantization for Conjunctival Pallor Anemia Detection*!
 - **[Feb. 2025]** Paper accepted at ISICN 2025 titled *Performance Analysis of Post-training Quantization for Conjunctival Pallor Anemia Detection*!
 - **[Dec. 2025]** Submitted research paper at ISICN 2025.
 - **[Nov. 2025]** Abstract submitted at SIAM CSE 2025.
