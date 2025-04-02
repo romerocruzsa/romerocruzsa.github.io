@@ -17,6 +17,7 @@ I am an undergraudate senior in Computer Science and Engineering at the [Univers
 
 ## News
 
+- **[Apr. 2025]** Abstract accepted for 43rd PRISM/58th ACS JTM titled *A Hybrid Ensemble-Distillation Approach for Compact Deep Learning Anemia Screening*!
 - **[Jan. 2025]** Abstract accepted for SIAM CSE 2025 titled *Evaluating Neural Network Quantization for Conjunctival Pallor Anemia Detection*!
 - **[Feb. 2025]** Paper accepted at ISICN 2025 titled *Performance Analysis of Post-training Quantization for Conjunctival Pallor Anemia Detection*!
 - **[Dec. 2025]** Submitted research paper at ISICN 2025.
