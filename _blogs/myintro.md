@@ -16,12 +16,6 @@ This is my first blog post. But more than that, it’s a small marker of somethi
 One of my favorite songs that captures the essence of Puerto Rico, *La Isla del Encanto*, and the place I call home is *Hijos del Cañaveral* by Residente. At one point, the lyrics say,
 
 ***“Somos el rocío cuando se desayuna; somos la marea cuando baila con la luna; nos secamos el sudor con el viento, sin toalla; y nos perfumamos con la sal de la playa.”***
-<!-- 
-<iframe width="100%" height="152" src="https://www.youtube.com/embed/nAs-uIuUlu0?start=133&end=144" 
-title="Residente - Hijos del Cañaveral" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 12px;"></iframe>
-
-*🎧 Listen from 2:13 to 2:24 — the verse that shaped my view of identity and resilience.* -->
 
 Nature becomes a metaphor for identity, resilience, and spirit. The rocío (dew) and marea (tide) symbolize fluidity and adaptability, reflecting a people in harmony with their environment. The line *“Nos secamos el sudor con el viento, sin toalla”* speaks to endurance—how struggle is embraced without complaint. *“Nos perfumamos con la sal de la playa”* reinforces the idea that identity is deeply rooted in the island itself—there is pride in simplicity, in being shaped by the land rather than material wealth.
 
