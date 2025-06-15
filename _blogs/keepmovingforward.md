@@ -1,0 +1,16 @@
+---
+layout: blog
+title: "Keep Moving Forward"
+author: "Sebastián A. Cruz Romero"
+date: 2025-06-15
+excerpt: "I'm gonna stick around. I can't save everyone, but I can try to save the ones I can. -Peter Parker"
+thumbnail: ./assets/img/keepmovingforward.png
+---
+
+There are times where life suffocates you so much you wonder if air is meant to be breathed. As if destiny and hope had dinner together talking about how to poke & prod the sliver of self-esteem you have left to keep moving forward. And yet, somehow you're here. That should mean something, right? Maybe you're not here to be indestructible. Maybe you're not here to carry something grandiose like grace through grief or clarity within uncertainty. I reflect on my purpose; possibly it isn't to "win", but to remain aware of love around me, to be prepared to give it back, and strong enough to keep being present. Around me, wounds often represent a sign of weakness, but quite frankly, it is a testament of how far I've come. I've embraced what others hide. I've broken down in ways I don't speak of and try to keep being kind. Still thoughtful, still willing to get back up and try. That alone makes me uniquely qualified to move forward. Anyone can pretend to having it all together, but it takes a different kind of grit and gump to be honest about the weight one can carry.
+
+You really don't know what path is the right one. You might have a gut feeling; at least thats how I make my own decisions. Still, self-doubt remains, fighting the other voice telling you "Don't stop!". It matters to be aware, that courage is older than your fear. It’s the part of you that refuses to let up because, deep down, you know that someone else is rooting for you since you're the one that motivates them to be relentless and never quit. That's the story that gives them a reason to stay. No matter how deep the dark gets, no matter how heavy the pain presses into your bones, live like your breath still matters. Not for yourself or for anyone to prove, you carry those who aren't here with us. You take stand as a pillar for others not to fall in deeper depths of darkness. Your scars aren’t shameful, they’re evidence of where the burns and ashes of that intense flame got to you, painful as it migth have been, you walked through it anyway. To carry pain with dignity is to let grief shape you, not imprison you.
+
+When hope flickers and you don't know what tomorrow holds, lift your chin anyway. Breathe like the air itself is pure and holy. Because it is. The fact that you remain with us, with me reading this, is a miracle too easily overlooked. Let others chase perfection. You? Embrace your childlike curiosity and an open soul. Fight with compassion and cry without regret. That's the kind of strenght no one can fake. You migh not always understandwhy life gives and then takes; hell I don't think anyone does. Don't attempt to do so. Keep moving anyway, embrace the very instance of self-reflection that you are present and in control of your very choices upon those circumstances, it is you who decides what happens every step of the way. Keep your heart open to be found. So live, not perfectly nor loudly, but fully. With both hands reaching forward and eyes clear enough to find beauty even among the ruins.
+
+— Sebastián 🌿
