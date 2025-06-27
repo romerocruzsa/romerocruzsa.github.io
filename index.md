@@ -17,9 +17,10 @@ I'm an undegraduate senior in Computer Science & Engineering at the [University 
 
 ## News
 
+- **[Jun. 2025]** Completed the [Cyberinfrastructure-Enabled Machine Learning (CIML) Summer Institute 2025](https://na.eventscloud.com/website/83697/) at the San Diego Supercomputer Center!
 - **[May. 2025]** Founded [Capicú](https://capicupuertorico.com) a deep tech startup focused on enhancing medtech through Edge AI innovation.
 - **[May. 2025]** Selected to be part of the [Dorm Room Fund](https://dormroomfund.com) Blueprint Student-Investor Track.
-- **[May. 2025]** Submitted conference paper at [IEEE GHTC 2025](https://ieeeghtc.com).
+- **[May. 2025]** Submitted conference paper at [IEEE GHTC 2025](https://ieeeghtc.org).
 - **[Apr. 2025]** NSF SBIR Phase I Project Pitch was invited for Full Proposal submission!
 - **[Apr. 2025]** Abstract accepted for 43rd PRISM/58th ACS JTM titled *A Hybrid Ensemble-Distillation Approach for Compact Deep Learning Anemia Screening*!
 - **[Jan. 2025]** Abstract accepted for [SIAM CSE 2025](https://www.siam.org/conferences-events/past-event-archive/cse25/) titled *Evaluating Neural Network Quantization for Conjunctival Pallor Anemia Detection*!
