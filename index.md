@@ -17,6 +17,9 @@ I'm an undegraduate senior in Computer Science & Engineering at the [University 
 
 ## News
 
+- **[Jul. 2025]** Paper accepted at [IEEE GHTC 2025](https://www.ieeeghtc.org) titled *Design of an Edge-based Portable EHR System for Anemia Screening in Remote Health Applications*!
+- **[Jul. 2025]** Accepted into [NVIDIA Inception](https://nvidia.com/en-us/startups) and [AWS Activate](https://aws.amazon.com/startups) programs! See our AWS Startup Showcase page [here](https://aws.amazon.com/startups/showcase/startup-details/8a827c00-6054-457a-bac5-8345c5da9ce6).
+- **[Jul. 2025]** Granted NSF ACCESS support for project titled *Compression and Profiling of Machine Learning Models in Biomedical Embedded Sensing*!
 - **[Jun. 2025]** Completed the [Cyberinfrastructure-Enabled Machine Learning (CIML) Summer Institute 2025](https://na.eventscloud.com/website/83697/) at the San Diego Supercomputer Center!
 - **[May. 2025]** Founded [Capicú](https://capicupuertorico.com) a deep tech startup focused on enhancing medtech through Edge AI innovation.
 - **[May. 2025]** Selected to be part of the [Dorm Room Fund](https://dormroomfund.com) Blueprint Student-Investor Track.

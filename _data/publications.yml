@@ -1,5 +1,16 @@
 main:
 
+  - title: Design of an Edge-based Portable EHR System for Anemia Screening in Remote Health Applications
+    authors: <strong>Sebastián A. Cruz-Romero*</strong>, Misael J. Mercado Hernández, Samir Y. Ali Rivera, Jorge A. Santiago Fernández, and Wilfredo E. Lugo Beauchamp (*Corresponding Author)
+
+    conference_short: IEEE GHTC
+    conference: IEEE Global Humanitarian Technology Conference <strong>(GHTC)</strong>, 2025.
+    pdf: ./assets/files/papers/CruzRomero2025-2.pdf
+    code: 
+    bibtex: 
+    image: ./assets/img/teaser_ghtc2025.png
+    notes: (Oral Presentation) *Pending Publication
+
   - title: Performance Analysis of Post-Training Quantization on CNN-based Conjunctival Pallor Anemia Detection
     authors: <strong>Sebastián A. Cruz-Romero*</strong>, and Wilfredo E. Lugo Beauchamp (*Corresponding Author)
 
@@ -9,7 +20,7 @@ main:
     code: 
     bibtex: 
     image: ./assets/img/teaser_isicn2025.png
-    notes: Oral Presentation
+    notes: (Oral Presentation) *Pending Publication
 
   - title: LSTM Model for Sepsis Detection and Classification Using PPG Signals
     authors: Michael A. Alvarez-Navarro*, Luis Huallparimachi, <strong>Sebastián A. Cruz-Romero</strong>, and Heidy Sierra (*Corresponding Author)
@@ -21,7 +32,7 @@ main:
     code: 
     bibtex: 
     image: ./assets/img/teaser_isicn2024.png
-    notes: Oral Presentation
+    notes: (Oral Presentation) DOI:10.1007/978-3-031-67447-1_1
 
   - title: "Synthesis, Characterization, and Photocatalytic Activity of ZnS and Mn-doped ZnS Nanostructures"
     authors: Josian Luciano-Velázquez, Yan Xin, Yi-feng Su, Carla I. Quiles-Vélez, <strong>Sebastián A. Cruz-Romero</strong>, Gabriel E. Torres-Mejías, Julio Rivera-De Jesús, and Sonia J. Bailón-Ruiz*
@@ -32,5 +43,5 @@ main:
     code: 
     page: 
     bibtex: 
-    notes: Journal
+    notes: (Journal) DOI:10.1557/s43580-021-00035-y
     image: ./assets/img/teaser_mrs2021.png

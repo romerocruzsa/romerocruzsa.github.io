@@ -17,10 +17,12 @@
 <h4 style="margin:0 10px 0;">Extracurricular</h4>
 
 <ul style="margin:0 0 20px;">
-  <li><a href=""><autocolor>IEEE Computational Intelligence Society UPRM Student Branch Chapter, <strong>Founder & President</strong>, <em>Aug 2024 - Present</em></autocolor></a></li>
-  <li><a href=""><autocolor>IEEE Engineering Medicine & Biology Society UPRM Student Branch Chapter, <strong>Annual BioX Symposium on Engineering in Medicine and Biology Coordinator</strong>, <em>Aug 2021 - Present</em></autocolor></a></li>
+  <li><a href=""><autocolor>IEEE Computational Intelligence Society UPRM Student Branch Chapter, <strong>Founder & President</strong>, <em>Aug 2024 - May 2025</em></autocolor></a></li>
+  <li><a href=""><autocolor>IEEE Engineering Medicine & Biology Society UPRM Student Branch Chapter, <strong>Annual BioX Symposium on Engineering in Medicine and Biology Coordinator</strong>, <em>Aug 2021 - May 2025</em></autocolor></a></li>
   <li><a href=""><autocolor>IEEE EMBS UPRM Student Branch Chapter, <strong>Student Mentorship Program Coordinator</strong>, <em>May 2023 - Dec 2025</em></autocolor></a></li>
   <li><a href=""><autocolor>IEEE EMBS UPRM Student Branch Chapter, <strong>Secretary</strong>, <em>May 2023 - May 2024</em></autocolor></a></li>
   <li><a href=""><autocolor>IEEE EMBS UPRM Student Branch Chapter, <strong>President</strong>, <em>May 2022 - May 2023</em></autocolor></a></li>
   <li><a href=""><autocolor>IEEE EMBS UPRM Student Branch Chapter, <strong>Student Activities Coordinator</strong>, <em>Aug 2021 - May 2022</em></autocolor></a></li>
+  <li><a href=""><autocolor>SHPE UPRM Chapter, <strong>MentorSHPE Mentor</strong>, <em>Aug 2021 - May 2022</em></autocolor></a></li>
+  <li><a href=""><autocolor>SHPE UPRM Chapter, <strong>FellowSHPE Fellow Logistics Coordinator</strong>, <em>Aug 2020 - May 2021</em></autocolor></a></li>
 </ul>
