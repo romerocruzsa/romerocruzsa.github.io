@@ -5,7 +5,7 @@
 Albertine 0.1
 An Elbowpatched theme
 
-(c) 2014 Ian Li (http://ianli.com)
+(c) 2014 Sebastián A. Cruz Romero (http://ianli.com)
 
 ####
 
@@ -29,7 +29,7 @@ It is threatened by habitat loss.
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,700">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/albertine/css/default.css">
 
@@ -61,9 +61,17 @@ It is threatened by habitat loss.
           </h2>
         </div>
         <div class="col-xs-3 col-lg-3">
-          <img src="{{ site.baseurl }}{{ site.data.personal.picture }}" 
-               class="img-circle"
-               style="margin-top:-6px;width:56px;border:2px solid rgba(255,255,255,0.75)">
+          <div class="header-avatar-row">
+            <img src="{{ site.baseurl }}{{ site.data.personal.picture }}"
+                 class="img-circle header-profile-img"
+                 alt="">
+            <span class="header-quirk-gif-wrap" aria-hidden="true">
+              <img src="{{ site.baseurl }}/img/quirks/flying-dogo.gif"
+                   class="header-quirk-gif"
+                   alt=""
+                   loading="lazy">
+            </span>
+          </div>
         </div>
       </div>
     </div>
@@ -93,6 +101,14 @@ It is threatened by habitat loss.
       </section>
       <section class="col-md-offset-1 col-md-3">
         <h3>Contact</h3>
+        <p class="contact-affiliation-logos">
+          <a href="https://capicu.ai" target="_blank" rel="noopener noreferrer" class="contact-affiliation-link">
+            <img src="{{ site.baseurl }}/img/collaborators/capicu-logo.png" alt="Capicú" class="contact-affiliation-logo" loading="lazy">
+          </a>
+          <!-- <a href="https://domenechlab.com" target="_blank" rel="noopener noreferrer" class="contact-affiliation-link">
+            <img src="{{ site.baseurl }}/img/collaborators/domenechlab-logo.png" alt="Domenech Lab" class="contact-affiliation-logo" loading="lazy">
+          </a> -->
+        </p>
         <p>
           {{ site.data.personal.email | replace:'@',' <small>[at]</small> ' | replace:'.',' <small>[dot]</small> ' }}
         </p>
@@ -106,11 +122,15 @@ It is threatened by habitat loss.
           {% for profile in site.data.personal.profiles %}
             
             {% if profile.network == 'Google Scholar' %}
-              <i class="fa fa-google"></i>
+              <i class="fab fa-google" aria-hidden="true"></i>
+            {% elsif profile.network == 'ORCID' %}
+              <i class="fab fa-orcid" aria-hidden="true"></i>
             {% elsif profile.network == 'LinkedIn' %}
-              <i class="fa fa-linkedin-square"></i>
+              <i class="fab fa-linkedin" aria-hidden="true"></i>
             {% elsif profile.network == 'Twitter' %}
-              <i class="fa fa-twitter-square"></i>
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+            {% elsif profile.network == 'GitHub' %}
+              <i class="fab fa-github" aria-hidden="true"></i>
             {% endif %}
             <a href="{{ profile.url }}">
               {{ profile.network }}
@@ -124,16 +144,18 @@ It is threatened by habitat loss.
     </div>
   </div>
 
-  {% if site.data.publications.size > 0 %}
+  {% assign news_items = site.data.news.items %}
+  {% if site.data.publications.size > 0 or news_items.size > 0 %}
   <div class="container">
     <div class="row">
-      <section class="col-md-9">
+      {% if site.data.publications.size > 0 %}
+      <section class="col-md-8">
         <h3>Publications</h3>
 
         {% for publication in site.data.publications %}
           <p>
             <b>
-              <a href="{{ publication.pdf }}">
+              <a href="{% if publication.pdf contains '://' %}{{ publication.pdf }}{% else %}{{ publication.pdf | relative_url }}{% endif %}">
                 {{ publication.title }}
               </a>
             </b>
@@ -149,23 +171,77 @@ It is threatened by habitat loss.
               {% when 'dissertation' %}
                 {{ publication.publisher }}
               {% when 'journal' %}
-                {{ publication.journal }},
-                {{ publication.volume }},
-                {{ publication.issue }},
-                {{ publication.pages }}
+                {{ publication.journal }}{% if publication.volume %}, {{ publication.volume }}{% endif %}{% if publication.issue %}, {{ publication.issue }}{% endif %}{% if publication.pages %}, {{ publication.pages }}{% endif %}
               {% when 'magazine' %}
-                {{ publication.magazine }},
-                {{ publication.volume }},
-                {{ publication.issue }},
-                {{ publication.pages }}
+                {{ publication.magazine }}{% if publication.volume %}, {{ publication.volume }}{% endif %}{% if publication.issue %}, {{ publication.issue }}{% endif %}{% if publication.pages %}, {{ publication.pages }}{% endif %}
             {% endcase %}
           </p>
+        {% endfor %}
+      </section>
+      {% else %}
+      <div class="col-md-8" aria-hidden="true"></div>
+      {% endif %}
+
+      <section class="col-md-offset-1 col-md-3 news-sidebar">
+        <h3>News</h3>
+        <div class="news-scroll" tabindex="0" role="region" aria-label="Recent news">
+          {% for item in news_items%}
+            {% if item.body %}
+            <div class="news-item">
+              {% if item.date %}
+              <p><small>{{ item.date }}</small></p>
+              {% endif %}
+              {{ item.body | markdownify }}
+              {% if item.url %}
+              <p><a href="{{ item.url }}">{% if item.url_label %}{{ item.url_label }}{% else %}More{% endif %}</a></p>
+              {% endif %}
+            </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </section>
+    </div>
+  </div>
+  {% endif %}
+
+  {% if site.data.awards.sections and site.data.awards.sections.size > 0 %}
+  <div class="container">
+    <div class="row">
+      <section class="col-md-9">
+        <h3>Awards</h3>
+
+        {% for award_section in site.data.awards.sections %}
+          <h4 class="awards-subheading">{{ award_section.name }}</h4>
+          {% for award in award_section.items %}
+            {% if award.title %}
+            <p>
+              <b class="award-title">
+                {% if award.url %}
+                  <a href="{{ award.url }}">{{ award.title }}</a>
+                {% else %}
+                  {{ award.title }}
+                {% endif %}
+              </b>
+              {% if award.year %}
+                <small>
+                  {{ award.year }}
+                </small>
+              {% endif %}
+              {% if award.organization %}
+                <br>
+                {{ award.organization }}
+              {% endif %}
+            </p>
+            {% endif %}
+          {% endfor %}
         {% endfor %}
       </section>
     </div>
   </div>
   {% endif %}
 
+  {% comment %}Projects section off — remove the `if false` … `endif` pair wrapping it to turn back on.{% endcomment %}
+  {% if false %}
   {% if site.data.projects.size > 0 %}
   <!-- ==================== -->
   <!-- PROJECTS -->
@@ -211,7 +287,10 @@ It is threatened by habitat loss.
     {% endfor %}
   </section>
   {% endif %}
+  {% endif %}
 
+  {% comment %}Presentations section off — remove the `if false` … `endif` pair wrapping it to turn back on.{% endcomment %}
+  {% if false %}
   {% if site.data.presentations.size > 0 %}
   <!-- ==================== -->
   <!-- PRESENTATIONS -->
@@ -247,6 +326,54 @@ It is threatened by habitat loss.
     {% endfor %}
   </section>
   {% endif %}
+  {% endif %}
+
+  {% if site.data.collaborators and site.data.collaborators.size > 0 %}
+  <!-- ==================== -->
+  <!-- COLLABORATORS -->
+  <!-- ==================== -->
+  <section class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <h3>Collaborators</h3>
+      </div>
+    </div>
+
+    {% for person in site.data.collaborators %}
+      {% if person.name %}
+      <div class="row">
+        {% if person.logo %}
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+          <p class="collaborator-logo-wrap">
+            <img src="{{ site.baseurl }}{{ person.logo }}"
+                 class="collaborator-logo"
+                 alt=""
+                 loading="lazy">
+          </p>
+        </div>
+        <div class="col-xs-10 col-sm-10 col-md-7 col-lg-7">
+        {% else %}
+        <div class="col-md-9">
+        {% endif %}
+          <p>
+            <b>
+              {% if person.url %}
+                <a href="{{ person.url }}">{{ person.name }}</a>
+              {% else %}
+                {{ person.name }}
+              {% endif %}
+            </b>
+            {% if person.affiliation %}
+              <br>
+              {{ person.affiliation }}
+            {% endif %}
+          </p>
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </section>
+  {% endif %}
 
   <!-- ==================== -->
   <!-- FOOTER -->
@@ -277,11 +404,27 @@ It is threatened by habitat loss.
   <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.4/waypoints.min.js"></script>
   <script>
     $(document).ready(function () {
+      var $wrap = $('.header-quirk-gif-wrap');
+      var quirkAfterWhiteMs = 520;
+      var quirkShowTimer = null;
+
       $('#section-about').waypoint(function (direction) {
         if (direction === 'down') {
           $('body').removeClass('intro-screen');
+          if (quirkShowTimer) {
+            clearTimeout(quirkShowTimer);
+          }
+          quirkShowTimer = setTimeout(function () {
+            $wrap.addClass('header-quirk-gif-wrap--visible');
+            quirkShowTimer = null;
+          }, quirkAfterWhiteMs);
         } else {
           $('body').addClass('intro-screen');
+          if (quirkShowTimer) {
+            clearTimeout(quirkShowTimer);
+            quirkShowTimer = null;
+          }
+          $wrap.removeClass('header-quirk-gif-wrap--visible');
         }
       });
     });
