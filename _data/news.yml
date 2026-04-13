@@ -1,0 +1,105 @@
+# For up-to-date milestones, sync from Activity on https://linkedin.com/in/romerocruzsa
+# (automated fetch is often incomplete or outdated vs. what you see when logged in).
+items:
+
+  - date: "Apr. 2026"
+    body: >-
+      Capicú has been accepted to [NSF I-Corps Puerto Rico](https://guayacan.org/our-programs/i-corps-puerto-rico/)!
+
+  - date: "Apr. 2026"
+    body: >-
+      Submitted journal paper to [TMLR](https://jmlr.org/tmlr/).
+    
+  - date: "Apr. 2026"
+    body: >-
+      Submitted to [OSV Fellowship Program](https://www.osvfellowship.com).
+    
+  - date: "Mar. 2026"
+    body: >-
+      Paper accepted at MDPI Applied Sciences titled _A Remote Smart Health Framework for Anemia Risk Stratification via Edge Medical Vision Systems_!
+
+  - date: "Feb. 2026"
+    body: >-
+      Capicú got awarded [VentureWell's E-Team Propel (Stage 2) Program](http://venturewell.org/spring-2026-e-team/)'s grant!
+
+  - date: "Feb. 2026"
+    body: >-
+      Capicú is part of [parallel18](https://parallel18.com)'s
+      Life Science Incubator, [BioLeap](https://parallel18/bioleap)'s Gen. 3!
+
+  - date: "Jan. 2026"
+    body: >-
+      Submitted journal paper to [MDPI Applied Sciences](https://www.mdpi.com/journal/applsci).
+  
+  - date: "Jan. 2026"
+    body: >-
+      Landed in Miami, FL for VentureWell's E-Team Workshop! FYI. Cara Barnes is awesome!
+  
+  - date: "Nov. 2025"
+    body: >-
+      Capicú got awarded [VentureWell E-Team Pioneer (Stage 1) Program](http://venturewell.org/winter-2026-e-team/)'s grant!
+
+  # - date: "Jul. 2025"
+  #   body: >-
+  #     Paper accepted at IEEE GHTC 2025 titled _Design of an Edge-based Portable EHR System
+  #     for Anemia Screening in Remote Health Applications_!
+
+  - date: "Jul. 2025"
+    body: >-
+      Accepted into NVIDIA Inception and AWS Activate programs!
+
+  - date: "Jul. 2025"
+    body: >-
+      Granted NSF ACCESS support for project titled _Compression and Profiling of Machine Learning
+      Models in Biomedical Embedded Sensing_!
+
+  - date: "Jun. 2025"
+    body: >-
+      Completed the [Cyberinfrastructure-Enabled Machine Learning (CIML) Summer Institute 2025](https://www.sdsc.edu/education/training-programs/CIML.html)
+      at the San Diego Supercomputer Center!
+
+  - date: "May 2025"
+    body: >-
+      Founded Capicú, a deep tech startup focused on deploying AI/ML directly where biomedical data is collected.
+      Learn more about Capicú [here](https://capicu.ai).
+
+  - date: "May 2025"
+    body: Selected to be part of the [Dorm Room Fund Blueprint Student-Investor Track](https://dormroomfund.com/blueprint).
+
+  - date: "May 2025"
+    body: Submitted conference paper at [IEEE GHTC 2025](https://www.ieee-ghtc.org/2025/).
+
+  - date: "Apr. 2025"
+    body: NSF SBIR Phase I Project Pitch was invited for Full Proposal submission!
+
+  - date: "Apr. 2025"
+    body: >-
+      Abstract accepted for 43rd PRISM/58th ACS JTM titled _A Hybrid Ensemble-Distillation Approach
+      for Compact Deep Learning Anemia Screening_!
+
+  - date: "Feb. 2025"
+    body: >-
+      Paper accepted at ISICN 2025 titled _Performance Analysis of Post-training Quantization for
+      Conjunctival Pallor Anemia Detection_!
+
+  - date: "Jan. 2025"
+    body: >-
+      Abstract accepted for SIAM CSE 2025 titled _Evaluating Neural Network Quantization for
+      Conjunctival Pallor Anemia Detection_!
+  
+  - date: "Dec. 2024"
+    body: Submitted conference paper at ISICN 2025.
+
+  - date: "Nov. 2024"
+    body: Abstract submitted at SIAM CSE 2025.
+
+  - date: "Sep. 2024"
+    body: Submitted summer conference paper at HotMobile 2024.
+
+  - date: "Summer 2024"
+    body: Completed the Apple-NACME Inc. AIML Intensive Bootcamp hosted at USC.
+
+  - date: "Aug. 2024"
+    body: >-
+      Our paper titled _LSTM Model for Sepsis Detection and Classification Using PPG Signals_
+      was published!

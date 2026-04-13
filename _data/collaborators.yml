@@ -1,0 +1,17 @@
+# Collaborators — add entries below.
+# Each entry: name (required), affiliation (optional), url (optional), logo (optional path under site root, e.g. /img/collaborators/uf-logo.png).
+-
+  name: Dr. Wilfredo Lugo Beauchamp, Assistant Professor
+  affiliation: Edge Computing Group, University of Puerto Rico at Mayagüez
+  url: https://edge-computing-upr.github.io/web
+  logo: /img/collaborators/uprm-logo.png
+-
+  name: Jacob Delgado López, Ph.D. Student
+  affiliation: ARCADE Lab, John Hopkins University
+  url: https://jacobdelgado1002.github.io
+  logo: /img/collaborators/jhu-logo.png
+-
+  name: Chibuzor Okocha, Ph.D. Student
+  affiliation: UF Data Studio, University of Florida
+  url: https://chibuzor.vercel.app
+  logo: /img/collaborators/uf-logo.png

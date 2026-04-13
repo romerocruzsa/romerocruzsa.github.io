@@ -1,0 +1,94 @@
+# Honors & awards — grouped like resume. Each section has: name, items[]. Same item fields: title, year, organization, url (optional).
+sections:
+  -
+    name: "Current & pending (other)"
+    items:
+      -
+        title: BioLeap Gen. 3 Life Sciences Incubator
+        year: "2026"
+      -
+        title: VentureWell E-Team Propel Program
+        year: "2026"
+      -
+        title: VentureWell E-Team Pioneer Program
+        year: "2026"
+      -
+        title: NSF ACCESS (Advanced Cyberinfrastructure Coordination Ecosystem Services & Support)
+        year: "2025"
+  -
+    name: Fellowships
+    items:
+      -
+        title: Center for the Advancement of Wearable Technologies (CAWT) Undergraduate Research Internship
+        organization: National Science Foundation/University of Puerto Rico at Mayagüez
+        year: 2024–2025
+      -
+        title: Bernard & Sophie Gould MIT Summer Research Program in Biology & Neuroscience (MSRP Bio)
+        organization: Massachusetts Institute of Technology (MIT)
+        year: "2023"
+      -
+        title: Maximizing Access to Research Careers (MARC) UPRM Trainee
+        organization: National Institute of General Medical Sciences (NIGMS)/University of Puerto Rico at Mayagüez
+        year: 2022–2023
+      -
+        title: Computational Bioengineering Research Experience for Undergraduates (REU)
+        organization: National Science Foundation/University of Iowa
+        year: "2021"
+      -
+        title: Research Opportunities for Undergraduates in STEM (ROUSS) Program
+        organization: National Science Foundation/Puerto Rico Louis Stokes Alliance for Minoritized Participation (PR-LSAMP)
+        year: 2020–2022
+  -
+    name: Scholarships
+    items:
+      -
+        title: Engineering Community Summit (ECoS) Scholarship
+        year: "2025"
+      -
+        title: Apple Pathways Academy Scholarship (×4 awards)
+        year: 2022–2025
+      -
+        title: Nagnoi, LLC Scholarship
+        year: "2022"
+      -
+        title: Boston Scientific Scholarship
+        year: "2022"
+      -
+        title: Bristol Myers Squibb Scholarship
+        year: "2022"
+      -
+        title: Boeing Academic Excellence Scholarship
+        year: "2022"
+      -
+        title: Hispanic Scholarship Fund (HSF) Scholarship (×3 awards)
+        year: 2021–2024
+      -
+        title: EcoEléctrica Scholarship (×4 awards)
+        year: 2019–2022
+  -
+    name: Travel support
+    items:
+      -
+        title: Cyberinfrastructure-enabled Machine Learning (CIML) Summer Institute
+        organization: National Science Foundation/San Diego Supercomputer Center (SDSC)
+        year: "2025"
+      -
+        title: Building Engagement (BE) Program for Computational Science & Engineering 2025
+        organization: Sustainable Horizons Institute (SHI)/Society for Industrial and Applied Mathematics (SIAM)
+        year: "2025"
+      -
+        title: NSF I-Corps Site UPRM Travel Award
+        organization: National Science Foundation/University of Puerto Rico at Mayagüez
+        year: "2024"
+      -
+        title: Annual Biomedical Research Conference for Minoritized Scientists (ABRCMS) Full Travel Award
+        organization: American Society for Microbiology
+        year: "2023"
+      -
+        title: Annual Biomedical Research Conference for Minoritized Scientists (ABRCMS) Partial Travel Award (housing)
+        organization: American Society for Microbiology
+        year: "2022"
+      -
+        title: Broader Engagement (BE) Program for Mathematics of Data Science 2022
+        organization: Sustainable Horizons Institute (SHI)/Society for Industrial and Applied Mathematics (SIAM)
+        year: "2022"
