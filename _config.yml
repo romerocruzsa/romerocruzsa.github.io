@@ -1,5 +1,7 @@
 # Build settings
 markdown: kramdown
 
-# http://jekyllrb.com/docs/github-pages/#project-page-url-structure
-baseurl: /elbowpatched-boilerplate
+# User site https://romerocruzsa.github.io/ is served from repo root — baseurl must be empty.
+# (A project page under a subpath would use e.g. baseurl: /repo-name.)
+url: https://romerocruzsa.github.io
+baseurl: ""
