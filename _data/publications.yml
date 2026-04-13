@@ -1,66 +1,41 @@
 -
   type: journal
-  title: Using context to reveal factors that affect physical activity
-  authors: Ian Li, Anind K. Dey, Jodi Forlizzi
-  journal: ACM Transactions on Computer Human Interaction
-  volume: 19 
-  issue: 1
-  year: 2012
-  month: March
-  pdf: http://www.personalinformatics.org/docs/papers/2012-ianli-tochi-physical-activity.pdf
+  title: A Remote Smart Health Framework for Anemia Risk Stratification via Edge Medical Vision Systems
+  authors: S.A. Cruz Romero, M.J. Mercado Hernández, S.Y. Ali Rivera, J.A. Santiago Fernández, W.E. Lugo Beauchamp*
+  journal: MDPI Applied Sciences
+  # volume: 6 
+  # issue: 7
+  year: 2026
+  month: April
+  pdf: /papers/CruzRomero-MDPIAppliSci-2026.pdf
   url: http://dl.acm.org/citation.cfm?id=2147783.2147790
 -
-  type: dissertation
-  title: "Personal Informatics and Context: Using Context to Reveal Factors that Affect Behavior"
-  authors: Ian Li
-  year: 2011
-  publisher: Carnegie Mellon University
-  pdf: http://ianli.com/thesis/docs/dissertation.pdf
-  url: http://dl.acm.org/citation.cfm?id=2520311
+  type: conference
+  title: Performance Analysis of Post-Training Quantization for CNN-Based Conjunctival Pallor Anemia Detection
+  authors: S.A. Cruz Romero, W.E. Lugo Beauchamp*
+  conference: Proceedings of the International Symposium on Intelligent Computing and Networking 2025
+  year: 2025
+  pages: 214-227
+  pdf: /papers/CruzRomero-ISICN-2025.pdf
+  url: https://link.springer.com/chapter/10.1007/978-3-032-09694-4_18
+
 -
   type: conference
-  title: "Understanding My Data, Myself: Supporting Self-Reflection with Ubicomp Technologies"
-  authors: Ian Li, Anind Dey, Jodi Forlizzi
-  conference: Proceedings of UbiComp 2011
-  year: 2011
-  pages: 405-414
-  pdf: http://ianli.com/publications/2011-ianli-ubicomp-understanding-my-data.pdf
-  url: http://dl.acm.org/citation.cfm?id=2030166
+  title: LSTM Model for Sepsis Detection and Classification Using PPG Signals
+  authors: M. Alvarez Navarro*, L. Huallparimachi Saire, S.A. Cruz Romero, H. Sierra Gil
+  conference: Proceedings of the International Symposium on Intelligent Computing and Networking 2024
+  year: 2024
+  pages: 3-16
+  pdf: /papers/AlvarezNavarro-ISICN-2024.pdf
+  url: https://link.springer.com/chapter/10.1007/978-3-031-67447-1_1
 -
-  type: conference
-  title: A stage-based model of personal informatics systems
-  authors: Ian Li, Anind Dey, Jodi Forlizzi
-  year: 2010
-  conference: Proceedings of CHI 2010
-  pages: 557-566
-  pdf: http://ianli.com/publications/2010-ianli-chi-stage-based-model.pdf
-  url: http://dl.acm.org/citation.cfm?id=1753326.1753409
-- 
-  type: conference
-  title: "Here's What I Did: Sharing and Reusing Web Activity with ActionShot"
-  authors: Ian Li, Jeffrey Nichols, Tessa Lau, Clemens Drews, Allen Cypher
-  conference: Proceedings of CHI 2010
-  year: 2010
-  pages: 723-732
-  pdf: http://ianli.com/publications/2010-ianli-chi-actionshot.pdf
-  url: http://dl.acm.org/citation.cfm?id=1753326.1753432
--
-  type: magazine
-  title: "Grafitter: leveraging social media for self reflection"
-  authors: Ian Li, Anind Dey, Jodi Forlizzi
-  magazine: Crossroads
-  volume: 16
-  issue: 2
-  year: 2009
-  pages: 12-13
-  url: http://dl.acm.org/citation.cfm?id=1665997.1666001
-  pdf: http://ianli.com/publications/2009-ianli-crossroads-grafitter.pdf
--
-  type: conference
-  title: Using Visualizations to Increase Compliance in Experience Sampling
-  authors: Gary Hsieh, Ian Li, Anind Dey, Jodi Forlizzi, Scott Hudson
-  conference: Proceedings of UbiComp 2008
-  year: 2008
-  pages: 164-167
-  pdf: http://ianli.com/publications/2008-hsieh-ubicomp-using-visualizations.pdf
-  url: http://portal.acm.org/citation.cfm?id=1409635.1409657
+  type: journal
+  title: Synthesis, Characterization, and Photocatalytic Activity of ZnS and Mn-doped ZnS Nanostructures
+  authors: J. Luciano Velázquez, Y. Xin, Y. Su, C.I. Quiles Vélez, S.A. Cruz Romero, G.E. Torres Mejías, J. Rivera De Jesús, and S.J. Bailón-Ruiz*
+  journal: MRS Advances
+  volume: 6 
+  pages: 252-258
+  year: 2021
+  month: March
+  pdf: /papers/LucianoVelazquez-MRSAdvances-2021.pdf
+  url: https://link.springer.com/article/10.1557/s43580-021-00035-y
