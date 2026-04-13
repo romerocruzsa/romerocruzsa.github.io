@@ -1,44 +1,54 @@
-name: Ian Li
+name: Sebastián A. Cruz Romero
 
-label: UI Designer
+label: Another ML Nerd
 
-picture: /img/profile-picture.jpg
+picture: /img/profile-picture.png
 
-email: ianli@ianli.com
+email: scruzromero@capicu.ai
 
-phone: 
+phone: +1 (787) 601-1026
 
-department: Android UX
+department:
 
-institution: Google
+institution: Capicú Technologies
 
 mailing_address: >
-  1600 Amphitheatre Parkway
-  Mountain View, CA 94043
+  62 Calle Ernesto Ramos Antonini
+  Mayagüez, PR 00680
 
 profiles:
   - 
     network: Google Scholar
     username:
-    url: http://scholar.google.com/citations?user=JS7sVyQAAAAJ&hl=en
+    url: https://scholar.google.com/citations?hl=es&user=8AMcDG0AAAAJ
+  -
+    network: ORCID
+    username: 0000-0003-3892-2273
+    url: https://orcid.org/0000-0003-3892-2273
   -
     network: LinkedIn
-    username:
-    url: https://www.linkedin.com/pub/ian-li/1/681/8b0
+    username: romerocruzsa
+    url: https://linkedin.com/in/romerocruzsa
   -
-    network: Twitter
-    username: ianli
-    url: https://twitter.com/ianli/
+    network: GitHub
+    username: romerocruzsa
+    url: https://github.com/romerocruzsa
 
 intro:
-  title: Hello!
+  title: Dimelo!
   body: >
-    I'm a UI designer at Google.
-    Before Google, I was a Ph.D. student in the 
-    [Human-Computer Interaction Institute](http://hcii.cs.cmu.edu/) at Carnegie Mellon University.
-    My advisors were 
-    [Anind Dey](http://www.cs.cmu.edu/~anind/) and 
-    [Jodi Forlizzi](http://goodgestreet.com/). 
-    I worked on designed and developed 
-    [personal informatics tools](http://www.personalinformatics.org/) that help people better understand their own behavior.
-    [My dissertation](http://ianli.com/thesis/) explored how contextual information can improve self-knowledge in personal informatics systems.
+    I’m the founder and CEO of [Capicú](https://capicu.ai).
+
+    While founding Capicú, I earned my B.S. in [Computer Science & Engineering](https://www.uprm.edu/cse/es/)
+    from the University of Puerto Rico at Mayagüez. Under the advisement of
+    [Dr. Wilfredo Lugo Beauchamp](http://linkedin.com/in/wilfredo-lugo-beauchamp-0b083838/),
+    I worked on applied Edge AI for remote smart health and computer vision applications.
+
+    I’m currently pursuing an M.S. in Bioengineering, studying how mechanical
+    cues affect extracellular vesicle (EV) production under the advisement of
+    [Dr. Maribella Domenech](https://www.linkedin.com/in/maribella-domenech-7ab17526/)
+    and in collaboration with the [NSF AIRFoundry](https://airfoundry.upenn.edu).
+
+    My career goal is to develop efficient and intelligent systems
+    that can be deployed directly where biomedical data is collected, bringing supercomputing
+    capabilities to environments with limited infrastructure.
