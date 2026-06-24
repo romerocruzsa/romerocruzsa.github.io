@@ -112,8 +112,8 @@ section {
   section p small {
     opacity:0.5;
   }
-  section a,
-  section a:hover {
+  section a:not(.pub-btn),
+  section a:not(.pub-btn):hover {
     color:#4471eb;
   }
 
@@ -127,7 +127,9 @@ section {
     gap:5px;
     margin-top:0;
   }
-  .pub-btn {
+  section a.pub-btn,
+  section button.pub-btn,
+  section .pub-btn {
     display:inline-block;
     margin:0;
     padding:2px 7px;
@@ -144,22 +146,29 @@ section {
     line-height:1.4;
     cursor:pointer;
     white-space:nowrap;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
     -webkit-transition:color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
        -moz-transition:color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
             transition:color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
   }
-  button.pub-btn {
+  section button.pub-btn {
     font-family:inherit;
   }
-  .pub-btn:hover,
-  .pub-btn:focus {
+  section a.pub-btn:hover,
+  section a.pub-btn:focus,
+  section button.pub-btn:hover,
+  section button.pub-btn:focus,
+  section .pub-btn:hover,
+  section .pub-btn:focus {
     color:rgba(68,113,235,0.8);
     background:rgba(68,113,235,0.05);
     border-color:rgba(68,113,235,0.22);
     text-decoration:none;
     outline:none;
   }
-  .pub-btn-bibtex--active {
+  section .pub-btn-bibtex--active {
     color:rgba(68,113,235,0.8);
     background:rgba(68,113,235,0.05);
     border-color:rgba(68,113,235,0.22);
