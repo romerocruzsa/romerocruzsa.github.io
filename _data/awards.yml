@@ -1,8 +1,11 @@
 # Honors & awards — grouped like resume. Each section has: name, items[]. Same item fields: title, year, organization, url (optional).
 sections:
   -
-    name: "Current & pending (other)"
+    name: "Non-Dilutive Funding & Support"
     items:
+      -
+        title: Capital Semilla "Apostando a Mayagüez"
+        year: "2026"
       -
         title: BioLeap Gen. 3 Life Sciences Incubator
         year: "2026"

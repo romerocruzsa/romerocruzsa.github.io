@@ -155,19 +155,31 @@ It is threatened by habitat loss.
         {% for publication in site.data.publications %}
           <p>
             <b>
-              <a href="{% if publication.pdf contains '://' %}{{ publication.pdf }}{% else %}{{ publication.pdf | relative_url }}{% endif %}">
+              {% if publication.url %}
+                <a href="{{ publication.url }}">
+                  {{ publication.title }}
+                </a>
+              {% elsif publication.doi %}
+                <a href="https://doi.org/{{ publication.doi }}">
+                  {{ publication.title }}
+                </a>
+              {% elsif publication.pdf %}
+                <a href="{% if publication.pdf contains '://' %}{{ publication.pdf }}{% else %}{{ publication.pdf | relative_url }}{% endif %}">
+                  {{ publication.title }}
+                </a>
+              {% else %}
                 {{ publication.title }}
-              </a>
+              {% endif %}
             </b>
             <small>
-              {{ publication.year }}
+              {% if publication.month %}{{ publication.month }} {% endif %}{{ publication.year }}
             </small>
             <br>
             {{ publication.authors }}
             <br>
             {% case publication.type %}
               {% when 'conference' %}
-                {{ publication.conference }}
+                {{ publication.conference }}{% if publication.pages %}, {{ publication.pages }}{% endif %}
               {% when 'dissertation' %}
                 {{ publication.publisher }}
               {% when 'journal' %}
@@ -175,6 +187,41 @@ It is threatened by habitat loss.
               {% when 'magazine' %}
                 {{ publication.magazine }}{% if publication.volume %}, {{ publication.volume }}{% endif %}{% if publication.issue %}, {{ publication.issue }}{% endif %}{% if publication.pages %}, {{ publication.pages }}{% endif %}
             {% endcase %}
+            <div class="publication-actions">
+              <div class="publication-links">
+                {% if publication.pdf %}
+                  <a class="pub-btn"
+                     href="{% if publication.pdf contains '://' %}{{ publication.pdf }}{% else %}{{ publication.pdf | relative_url }}{% endif %}">
+                    PDF
+                  </a>
+                {% endif %}
+                {% if publication.doi %}
+                  <a class="pub-btn"
+                     href="https://doi.org/{{ publication.doi }}"
+                     target="_blank"
+                     rel="noopener noreferrer">
+                    DOI
+                  </a>
+                {% endif %}
+                {% if publication.bibtex %}
+                  <button type="button"
+                          class="pub-btn pub-btn-bibtex"
+                          data-bibtex-panel="bibtex-panel-{{ forloop.index }}"
+                          aria-expanded="false"
+                          aria-controls="bibtex-panel-{{ forloop.index }}">
+                    BIBTEX
+                  </button>
+                {% endif %}
+              </div>
+              {% if publication.bibtex %}
+                <div class="bibtex-panel"
+                     id="bibtex-panel-{{ forloop.index }}"
+                     hidden>
+                  <pre class="bibtex-display"><code>{{ publication.bibtex }}</code></pre>
+                  <button type="button" class="pub-btn bibtex-copy-btn">copy</button>
+                </div>
+              {% endif %}
+            </div>
           </p>
         {% endfor %}
       </section>
@@ -425,6 +472,44 @@ It is threatened by habitat loss.
             quirkShowTimer = null;
           }
           $wrap.removeClass('header-quirk-gif-wrap--visible');
+        }
+      });
+
+      var $bibtexPanels = $('.bibtex-panel');
+      var $bibtexButtons = $('.pub-btn-bibtex');
+
+      $bibtexButtons.on('click', function () {
+        var panelId = $(this).data('bibtex-panel');
+        var $panel = $('#' + panelId);
+        var isOpen = $panel.hasClass('bibtex-panel--open');
+
+        $bibtexPanels.removeClass('bibtex-panel--open').attr('hidden', true);
+        $bibtexButtons.removeClass('pub-btn-bibtex--active').attr('aria-expanded', 'false');
+        $('.bibtex-copy-btn').text('copy');
+
+        if (!isOpen) {
+          $panel.addClass('bibtex-panel--open').removeAttr('hidden');
+          $(this).addClass('pub-btn-bibtex--active').attr('aria-expanded', 'true');
+        }
+      });
+
+      $('.bibtex-copy-btn').on('click', function () {
+        var bibtexText = $(this).siblings('.bibtex-display').find('code').text().trim();
+        var $copyBtn = $(this);
+
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(bibtexText).then(function () {
+            $copyBtn.text('copied');
+          });
+          return;
+        }
+
+        var $temp = $('<textarea>').val(bibtexText).appendTo('body').select();
+        try {
+          document.execCommand('copy');
+          $copyBtn.text('copied');
+        } finally {
+          $temp.remove();
         }
       });
     });

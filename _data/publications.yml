@@ -2,32 +2,59 @@
   type: journal
   title: A Remote Smart Health Framework for Anemia Risk Stratification via Edge Medical Vision Systems
   authors: S.A. Cruz Romero, M.J. Mercado Hernández, S.Y. Ali Rivera, J.A. Santiago Fernández, W.E. Lugo Beauchamp*
-  journal: MDPI Applied Sciences
-  # volume: 6 
-  # issue: 7
+  journal: Applied Sciences
   year: 2026
-  month: April
+  doi: 10.3390/app16104924
+  url: https://doi.org/10.3390/app16104924
   pdf: /papers/CruzRomero-MDPIAppliSci-2026.pdf
-  url: http://dl.acm.org/citation.cfm?id=2147783.2147790
+  bibtex: |
+    @article{cruzromero2026remote,
+      title={A Remote Smart Health Framework for Anemia Risk Stratification via Edge Medical Vision Systems},
+      author={Cruz Romero, Sebasti{\'a}n A. and Mercado Hern{\'a}ndez, Misael J. and Ali Rivera, Samir Y. and Santiago Fern{\'a}ndez, Jorge A. and Lugo Beauchamp, Wilfredo E.},
+      journal={Applied Sciences},
+      year={2026},
+      month={may},
+      doi={10.3390/app16104924}
+    }
 -
   type: conference
   title: Performance Analysis of Post-Training Quantization for CNN-Based Conjunctival Pallor Anemia Detection
   authors: S.A. Cruz Romero, W.E. Lugo Beauchamp*
-  conference: Proceedings of the International Symposium on Intelligent Computing and Networking 2025
+  conference: Lecture Notes in Networks and Systems
   year: 2025
   pages: 214-227
-  pdf: /papers/CruzRomero-ISICN-2025.pdf
+  doi: 10.1007/978-3-032-09694-4_18
   url: https://link.springer.com/chapter/10.1007/978-3-032-09694-4_18
+  pdf: /papers/CruzRomero-ISICN-2025.pdf
+  bibtex: |
+    @incollection{cruzromero2025performance,
+      title={Performance Analysis of Post-Training Quantization for {CNN}-Based Conjunctival Pallor Anemia Detection},
+      author={Cruz Romero, Sebasti{\'a}n A. and Lugo Beauchamp, Wilfredo E.},
+      booktitle={Lecture Notes in Networks and Systems},
+      pages={214--227},
+      year={2025},
+      doi={10.1007/978-3-032-09694-4_18}
+    }
 
 -
   type: conference
   title: LSTM Model for Sepsis Detection and Classification Using PPG Signals
   authors: M. Alvarez Navarro*, L. Huallparimachi Saire, S.A. Cruz Romero, H. Sierra Gil
-  conference: Proceedings of the International Symposium on Intelligent Computing and Networking 2024
+  conference: Lecture Notes in Networks and Systems
   year: 2024
   pages: 3-16
-  pdf: /papers/AlvarezNavarro-ISICN-2024.pdf
+  doi: 10.1007/978-3-031-67447-1_1
   url: https://link.springer.com/chapter/10.1007/978-3-031-67447-1_1
+  pdf: /papers/AlvarezNavarro-ISICN-2024.pdf
+  bibtex: |
+    @incollection{alvareznavarro2024lstm,
+      title={{LSTM} Model for Sepsis Detection and Classification Using {PPG} Signals},
+      author={Alvarez-Navarro, Michael A. and Huallparimachi, Luis and Cruz-Romero, Sebasti{\'a}n A. and Sierra, Heidy},
+      booktitle={Lecture Notes in Networks and Systems},
+      pages={3--16},
+      year={2024},
+      doi={10.1007/978-3-031-67447-1_1}
+    }
 -
   type: journal
   title: Synthesis, Characterization, and Photocatalytic Activity of ZnS and Mn-doped ZnS Nanostructures
@@ -36,6 +63,17 @@
   volume: 6 
   pages: 252-258
   year: 2021
-  month: March
-  pdf: /papers/LucianoVelazquez-MRSAdvances-2021.pdf
+  doi: 10.1557/s43580-021-00035-y
   url: https://link.springer.com/article/10.1557/s43580-021-00035-y
+  pdf: /papers/LucianoVelazquez-MRSAdvances-2021.pdf
+  bibtex: |
+    @article{lucianovelazquez2021synthesis,
+      title={Synthesis, Characterization, and Photocatalytic Activity of {ZnS} and Mn-doped {ZnS} Nanostructures},
+      author={Luciano-Vel{\'a}zquez, Josian and Xin, Yan and Su, Yi-feng and Quiles-V{\'e}lez, Carla I. and Cruz-Romero, Sebasti{\'a}n A. and Torres-Mej{\'i}as, Gabriel E. and Rivera-De Jes{\'u}s, Julio and Bail{\'o}n Ruiz, Sonia Janet},
+      journal={MRS Advances},
+      volume={6},
+      pages={252--258},
+      year={2021},
+      month={mar},
+      doi={10.1557/s43580-021-00035-y}
+    }
