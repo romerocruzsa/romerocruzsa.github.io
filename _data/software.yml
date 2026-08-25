@@ -1,0 +1,8 @@
+-
+  name: Introduction to R for Biologists
+  # subtitle: BIOL 4994 / 4991 and BIOL 6994 / 6997
+  description: >
+    Course assignments, study guides, and practical R tutorials published
+    throughout the Fall 2026 semester.
+  url: https://romerocruzsa.github.io/Intro_R_Biologist/
+  repository_url: https://github.com/romerocruzsa/Intro_R_Biologist

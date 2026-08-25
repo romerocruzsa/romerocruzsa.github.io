@@ -145,11 +145,12 @@ It is threatened by habitat loss.
   </div>
 
   {% assign news_items = site.data.news.items %}
-  {% if site.data.publications.size > 0 or news_items.size > 0 %}
+  {% if site.data.publications.size > 0 or site.data.software.size > 0 or news_items.size > 0 %}
   <div class="container">
     <div class="row">
-      {% if site.data.publications.size > 0 %}
+      {% if site.data.publications.size > 0 or site.data.software.size > 0 %}
       <section class="col-md-8">
+        {% if site.data.publications.size > 0 %}
         <h3>Publications</h3>
 
         {% for publication in site.data.publications %}
@@ -224,6 +225,44 @@ It is threatened by habitat loss.
             </div>
           </p>
         {% endfor %}
+        {% endif %}
+
+        {% if site.data.software.size > 0 %}
+        <div class="software-code">
+          <h3>Software &amp; Code</h3>
+
+          {% for project in site.data.software %}
+          <article class="software-item">
+            <h4 class="software-title">
+              {% if project.url %}
+                <a href="{{ project.url }}">{{ project.name }}</a>
+              {% else %}
+                {{ project.name }}
+              {% endif %}
+            </h4>
+            {% if project.subtitle %}
+              <p class="software-subtitle">{{ project.subtitle }}</p>
+            {% endif %}
+            {% if project.description %}
+              <div class="software-description">
+                {{ project.description | markdownify }}
+              </div>
+            {% endif %}
+            <div class="software-links">
+              {% if project.url %}
+                <a class="pub-btn" href="{{ project.url }}">course site</a>
+              {% endif %}
+              {% if project.repository_url %}
+                <a class="pub-btn"
+                   href="{{ project.repository_url }}"
+                   target="_blank"
+                   rel="noopener noreferrer">source code</a>
+              {% endif %}
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+        {% endif %}
       </section>
       {% else %}
       <div class="col-md-8" aria-hidden="true"></div>
