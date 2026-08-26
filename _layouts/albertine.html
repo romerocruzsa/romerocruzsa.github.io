@@ -131,6 +131,8 @@ It is threatened by habitat loss.
               <i class="fab fa-twitter" aria-hidden="true"></i>
             {% elsif profile.network == 'GitHub' %}
               <i class="fab fa-github" aria-hidden="true"></i>
+            {% elsif profile.network == 'Hugging Face' %}
+              <span class="huggingface-profile-icon" aria-hidden="true">🤗</span>
             {% endif %}
             <a href="{{ profile.url }}">
               {{ profile.network }}
@@ -414,6 +416,8 @@ It is threatened by habitat loss.
   {% endif %}
   {% endif %}
 
+  {% comment %}
+  Collaborators section hidden. Remove this Liquid comment block to restore it.
   {% if site.data.collaborators and site.data.collaborators.size > 0 %}
   <!-- ==================== -->
   <!-- COLLABORATORS -->
@@ -460,6 +464,7 @@ It is threatened by habitat loss.
     {% endfor %}
   </section>
   {% endif %}
+  {% endcomment %}
 
   <!-- ==================== -->
   <!-- FOOTER -->
@@ -491,21 +496,19 @@ It is threatened by habitat loss.
   <script>
     $(document).ready(function () {
       var $wrap = $('.header-quirk-gif-wrap');
-      var quirkAfterWhiteMs = 520;
+      var quirkDelayMs = 520;
       var quirkShowTimer = null;
 
       $('#section-about').waypoint(function (direction) {
         if (direction === 'down') {
-          $('body').removeClass('intro-screen');
           if (quirkShowTimer) {
             clearTimeout(quirkShowTimer);
           }
           quirkShowTimer = setTimeout(function () {
             $wrap.addClass('header-quirk-gif-wrap--visible');
             quirkShowTimer = null;
-          }, quirkAfterWhiteMs);
+          }, quirkDelayMs);
         } else {
-          $('body').addClass('intro-screen');
           if (quirkShowTimer) {
             clearTimeout(quirkShowTimer);
             quirkShowTimer = null;

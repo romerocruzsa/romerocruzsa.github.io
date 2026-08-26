@@ -33,6 +33,10 @@ profiles:
     network: GitHub
     username: romerocruzsa
     url: https://github.com/romerocruzsa
+  -
+    network: Hugging Face
+    username: romerocruzsa
+    url: https://huggingface.co/romerocruzsa
 
 intro:
   title: Dimelo!
