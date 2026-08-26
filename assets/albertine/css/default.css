@@ -170,9 +170,9 @@ section {
     letter-spacing:0;
     text-transform:lowercase;
     text-decoration:none;
-    color:#1c1e21;
-    background:#fff59d;
-    border:1px solid #fff59d;
+    color:#fff;
+    background:transparent;
+    border:1px solid rgba(255,255,255,0.8);
     border-radius:4px;
     line-height:1.4;
     cursor:pointer;
@@ -290,11 +290,11 @@ section {
   }
   .huggingface-profile-icon {
     display:inline-block;
-    width:1.15em;
-    margin-right:1px;
-    line-height:1;
-    text-align:center;
-    vertical-align:-0.05em;
+    width:1em;
+    height:1em;
+    margin-right:2px;
+    object-fit:contain;
+    vertical-align:-0.125em;
   }
 
   .collaborator-with-logo {

@@ -132,7 +132,10 @@ It is threatened by habitat loss.
             {% elsif profile.network == 'GitHub' %}
               <i class="fab fa-github" aria-hidden="true"></i>
             {% elsif profile.network == 'Hugging Face' %}
-              <span class="huggingface-profile-icon" aria-hidden="true">🤗</span>
+              <img src="{{ site.baseurl }}/img/huggingface-logo.svg"
+                   class="huggingface-profile-icon"
+                   alt=""
+                   aria-hidden="true">
             {% endif %}
             <a href="{{ profile.url }}">
               {{ profile.network }}
