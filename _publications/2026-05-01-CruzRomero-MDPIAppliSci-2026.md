@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2026-05-01-CruzRomero-MDPIAppliSci-2026
 excerpt: 'S.A. Cruz Romero, M.J. Mercado Hernández, S.Y. Ali Rivera, J.A. Santiago Fernández, W.E. Lugo Beauchamp*'
 date: 2026-05-01
+thumbnail: '/images/papers/CruzRomero-MDPIAppliSci-2026.jpg'
 venue: 'Applied Sciences'
 paperurl: 'https://doi.org/10.3390/app16104924'
 bibtexurl: '/files/CruzRomero-MDPIAppliSci-2026.bib'

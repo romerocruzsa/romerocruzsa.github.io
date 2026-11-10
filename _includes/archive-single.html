@@ -13,7 +13,13 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="archive__item{% if post.thumbnail %} archive__item--thumb{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if post.thumbnail %}
+      <a class="archive__item-thumb" href="{% if post.paperurl %}{{ post.paperurl }}" target="_blank" rel="noopener noreferrer{% else %}{{ base_path }}{{ post.url }}{% endif %}">
+        <img src="{{ post.thumbnail | prepend: base_path }}" alt="First page of {{ post.title | strip_html | escape }}" loading="lazy">
+      </a>
+      <div class="archive__item-body">
+    {% endif %}
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -57,7 +63,10 @@
         paperurl=post.paperurl
         slidesurl=post.slidesurl
         bibtexurl=post.bibtexurl
-    %}    
+    %}
+    {% if post.thumbnail %}
+      </div>
+    {% endif %}
 
   </article>
 </div>

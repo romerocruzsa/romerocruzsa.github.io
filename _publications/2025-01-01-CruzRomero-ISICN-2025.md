@@ -5,6 +5,7 @@ category: conferences
 permalink: /publication/2025-01-01-CruzRomero-ISICN-2025
 excerpt: 'S.A. Cruz Romero, W.E. Lugo Beauchamp*'
 date: 2025-01-01
+thumbnail: '/images/papers/CruzRomero-ISICN-2025.jpg'
 venue: 'Lecture Notes in Networks and Systems'
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-032-09694-4_18'
 bibtexurl: '/files/CruzRomero-ISICN-2025.bib'

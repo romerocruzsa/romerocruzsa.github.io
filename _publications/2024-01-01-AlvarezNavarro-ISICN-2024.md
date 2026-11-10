@@ -5,6 +5,7 @@ category: conferences
 permalink: /publication/2024-01-01-AlvarezNavarro-ISICN-2024
 excerpt: 'M. Alvarez Navarro*, L. Huallparimachi Saire, S.A. Cruz Romero, H. Sierra Gil'
 date: 2024-01-01
+thumbnail: '/images/papers/AlvarezNavarro-ISICN-2024.jpg'
 venue: 'Lecture Notes in Networks and Systems'
 paperurl: 'https://link.springer.com/chapter/10.1007/978-3-031-67447-1_1'
 bibtexurl: '/files/AlvarezNavarro-ISICN-2024.bib'

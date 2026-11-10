@@ -255,3 +255,38 @@
     text-decoration: none;
   }
 }
+
+/* Publications list (scaled down below the intro line) */
+
+.publications-list {
+  font-size: 0.85em;
+}
+
+.archive__item--thumb {
+  display: flex;
+  gap: 1.25em;
+  align-items: flex-start;
+  margin-top: 1.5em;
+}
+
+.archive__item-thumb {
+  flex: 0 0 90px;
+  /* nudge down to the cap height of the title's first line */
+  margin-top: 0.2em;
+
+  img {
+    display: block;
+    width: 100%;
+    border: 1px solid var(--global-border-color);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.archive__item-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.archive__item-body .archive__item-title {
+  margin-top: 0;
+}
