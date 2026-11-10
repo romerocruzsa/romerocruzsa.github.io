@@ -1,0 +1,18 @@
+<!-- Render the citation if supplied -->
+{% if include.citation %}
+Recommended citation: {{ include.citation }}<br />
+{% endif %}
+<!-- Icon links for the paper, slides, and BibTeX -->
+{% if include.paperurl or include.slidesurl or include.bibtexurl %}
+<span class="citation-links">
+{% if include.paperurl %}
+  <a href="{{ include.paperurl }}" title="Paper" aria-label="Paper" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-file-lines" aria-hidden="true"></i></a>
+{% endif %}
+{% if include.slidesurl %}
+  <a href="{{ include.slidesurl }}" title="Slides" aria-label="Slides"><i class="fas fa-fw fa-person-chalkboard" aria-hidden="true"></i></a>
+{% endif %}
+{% if include.bibtexurl %}
+  <a href="{{ include.bibtexurl }}" title="BibTeX" aria-label="BibTeX"><i class="fas fa-fw fa-quote-right" aria-hidden="true"></i></a>
+{% endif %}
+</span>
+{% endif %}
